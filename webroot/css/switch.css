@@ -1,0 +1,68 @@
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 3em;
+  height: 1.5em;
+  margin-bottom: 0;
+  vertical-align: sub;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+.switch input:checked+span:before{
+  left: -.4em;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 1.3em;
+  width: 1.3em;
+  left: .4em;
+  bottom: .15em;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #44cfac;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(1.9em);
+  -ms-transform: translateX(1.9em);
+  transform: translateX(1.9em);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: .3em;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.top-0{
+  margin-bottom: -10px;
+}
+.trash-icon{
+  font-size: 18px;
+}

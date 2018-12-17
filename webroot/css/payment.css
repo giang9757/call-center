@@ -1,0 +1,66 @@
+.info-table{
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 50px;
+}
+.info-table th{
+    width: 175px;
+    border: none;
+}
+.info-table td{
+    font-weight: 600;
+}
+.content-table {
+    display: none;
+}
+.content-table th{
+    border-bottom: none;
+    min-width: 300px;
+}
+.pay-but,.pay-but:hover{
+    padding: 5px 10px 5px 34px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    background-color: #01A9BB;
+    background-image: url(../img/showall.png);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 18px auto;
+    color: #fff;
+    display: inline-block;
+    cursor: pointer;
+}
+#loading-icon{
+    margin: 0 auto;
+}
+.success-pay-icon{
+    max-width: 150px;
+    width: 100%;
+}
+.h3-pay-success{
+    margin: 15px ;
+}
+.wrap-pay-success{
+    width: 800px;
+    margin: 30px auto;
+    padding:20px;
+    border: 1px solid #EBEBEC;
+    border-radius: 25px;
+    box-shadow: 10px 8px 30px grey; 
+}
+.max-width-800{
+    max-width: 800px !important;
+}
+.max-width-800 tr th{
+    width: 255px;
+}
+.cancel-payment{
+    padding: 20px;
+    margin-top: 40px;
+    border: 1px solid #B8773C;
+    border-radius: 4px;
+}
+.cancel-payment h3{
+    color: #B8773C;
+    font-weight: 600;
+}

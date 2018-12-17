@@ -1,0 +1,97 @@
+body {
+    background: url('../img/ep_pcp_1292x1480.png.large.1x.png') no-repeat top left;
+    font-family: Montserrat;
+    
+}
+.menu{
+	text-align:right;
+	padding-right: 50px;
+	padding-top: 10px;
+}
+.menu ul{
+	margin-bottom:10px;
+}
+.menu ul li{
+	display: inline-block;
+	list-style: none;
+	display: inline-block;
+    list-style: none;
+    padding: 10px;
+
+}
+.menu ul li a{
+	color: #808080;
+	text-transform: uppercase;
+	padding: 10px;
+	border: 2px solid #fff;
+}
+.menu ul li a:hover , .menu ul li a.active{
+	border: 2px solid #808080;
+	border-radius:4px;
+}
+
+.sologan{
+	color: #00AABB;
+	text-align: center;
+	margin-top: 14%;
+	font-weight: 400;
+	font-size: 60px;
+}
+.p-sologan{
+	color: #808080;
+	font-size: 18px;
+	text-align: center;
+	
+}
+.center-button{
+	text-align: center;
+	margin-top: 50px;
+}
+.free-but, .read-more{
+	color: #808080;
+    padding: 15px 25px;
+    font-size: 17px;
+    text-transform: uppercase;
+    border: 2px solid #808080;
+    margin: 5px;
+
+}
+.free-but:hover, .read-more:hover{
+	color: #808080;
+	background-color: #fff;
+}
+
+@media only screen and (max-width: 644px){
+  	.menu{
+  		padding-right: 2px; 
+  	}
+  	.menu ul{
+		margin-left: 2px ;
+		text-align: center;
+	}
+    .menu ul li{
+		border: none;
+		padding: 5px; 
+	}
+	.menu ul li a{
+		padding: 5px;
+		font-size: 12px;
+	}
+	.sologan{
+		text-align: center;
+		margin-top: 19%;
+		font-weight: 400;
+		font-size: 38px;
+	}
+	.p-sologan{
+		margin: 0 15px;
+		font-size: 13px;
+		
+	}
+	.center-button{		
+		margin-top: 150px;
+	}
+	/*.free-but, .read-more{
+		background-color: #fff;
+	}*/
+}
